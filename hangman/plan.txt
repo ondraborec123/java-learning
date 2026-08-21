@@ -1,0 +1,6 @@
+1. program z slova.txt vybere nahodne slovo OK
+2. hrac si tipne pismeno OK
+3. pokud je pismeno spravne, odhali se OK
+4. pokud je pismeno spatne, pocet spatnych pokusu se pricte OK
+5. pokud jsou vsechny pismena v poli hadanych pismen take v nahodnem slove, vyhra OK
+6. pokud je pocet pokusu 10, prohra OK
