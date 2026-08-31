@@ -4,8 +4,6 @@ import java.awt.Rectangle;
 import java.util.Random;
 import java.awt.Font;
 
-/* random.nextInt((2 - (-2) + 1) - 2);*/
-
 public class Ball extends Rectangle {
     Random random;
     final int DIAMETER = 20;

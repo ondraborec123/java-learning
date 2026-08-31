@@ -17,7 +17,7 @@ public class Panel extends JPanel {
     int rightPadY = GAME_HEIGHT / 2;
 
     final int padWidth = 20;
-    final int padHeight = 100; //60
+    final int padHeight = 100;
     final int padSpeed = 10;
 
     Ball ball = new Ball((GAME_WIDTH/2)-10, (GAME_HEIGHT/2)-10, 20, 20);
@@ -48,7 +48,7 @@ public class Panel extends JPanel {
         if (ball.x <= (0+padWidth/2)+padWidth && ball.y >= leftPadY && ball.y <= leftPadY+padHeight) {
             ball.xVel = -ball.xVel;
         }
-        /***************************** */
+
         if (keyHandler.sDown && leftPadY+padHeight < GAME_HEIGHT) {
             leftPadY += padSpeed;
         } else if (keyHandler.wDown && leftPadY > 0) {
