@@ -7,7 +7,7 @@ import java.awt.Font;
 public class Ball extends Rectangle {
     Random random;
     final int DIAMETER = 20;
-    final int SPEED = 6;
+    final int SPEED = 8;
     int xVel;
     int yVel;
 
@@ -27,7 +27,7 @@ public class Ball extends Rectangle {
     public void draw(Graphics g) {
         g.setColor(Color.WHITE);
         g.fillOval(x, y, width, height);
-        g.setColor(Color.RED);
+        g.setColor(Color.GREEN);
         g.setFont(new Font("TimesRoman", Font.PLAIN, 20));
         g.drawString(scoreStringer, 20, 20);
     }

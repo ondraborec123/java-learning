@@ -24,7 +24,7 @@ public class Panel extends JPanel {
 
     Panel() {
         this.setPreferredSize(new Dimension(GAME_WIDTH, GAME_HEIGHT));
-        this.setBackground(Color.BLACK);
+        this.setBackground(new Color(2,47,102));
         this.setDoubleBuffered(true);
 
         this.addKeyListener(keyHandler);
@@ -63,7 +63,7 @@ public class Panel extends JPanel {
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
 
-        g.setColor(Color.GRAY);
+        g.setColor(Color.WHITE);
         g.drawLine(GAME_WIDTH/2, 0, GAME_WIDTH/2, GAME_HEIGHT);
 
         g.setColor(Color.WHITE);
